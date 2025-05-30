@@ -1,0 +1,99 @@
+/* General Body Styles */
+body {
+    background: linear-gradient(135deg, #3a6073, #3a9e8a); /* Gradient background */
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Column layout */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Header Styles */
+header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 20px; /* Space below header */
+}
+
+h1 {
+    font-size: 2.8em; /* Larger font size for the heading */
+    text-transform: uppercase; /* Uppercase heading */
+    letter-spacing: 2px; /* Space between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Main Game Container */
+.parent {
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    padding: 40px; /* Padding around the content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+    backdrop-filter: blur(10px); /* Blur effect for background */
+    text-align: center; /* Center the content */
+}
+
+/* Game Board Styles */
+.game-board {
+    display: flex; /* Use flexbox for button layout */
+    justify-content: space-between; /* Space buttons evenly */
+    margin-bottom: 20px; /* Space below the button group */
+}
+
+/* Button Styles */
+.btns {
+    background-color: #ff6f61; /* Coral color for buttons */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    color: #ffffff; /* White text color */
+    font-size: 1.5em; /* Larger font size for buttons */
+    padding: 15px 30px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for buttons */
+    margin: 0 10px; /* Space between buttons */
+}
+
+.btns:hover {
+    background-color: #ff4a3b; /* Darker coral on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Scoreboard Styles */
+.scoreboard {
+    margin: 20px 0; /* Space above and below the scoreboard */
+}
+
+.scoreboard p {
+    font-size: 1.5em; /* Font size for centered score text */
+    margin: 10px 0; /* Margin above and below the paragraph */
+}
+
+/* Result Message Styles */
+#resultMessage {
+    font-size: 1.8em; /* Larger font for result messages */
+    margin-top: 20px; /* Space above the result message */
+    color: #ffcc00; /* Gold color for emphasis */
+    transition: opacity 0.5s; /* Smooth transition for opacity */
+    text-align: center; /* Center the result message */
+}
+
+/* Restart Button Styles */
+#reset {
+    margin-top: 20px; /* Space above the restart button */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.2em; /* Font size for the button */
+    background-color: #28a745; /* Green background for reset */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    border-radius: 10px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for the button */
+}
+
+#reset:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
